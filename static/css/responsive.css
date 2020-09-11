@@ -1,0 +1,75 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: Gwen
+    Theme URI: http://roseblog.info
+    Description: Ultimate News and Blog Template
+    Author: Rose-B
+    Author URI: http://themeforest.net/user/rose-b
+    Version: 1.0
+
+    Stylesheet
+
+-----------------------------------------------------------------------------------*/
+
+@media (max-width: 480px) {
+    .gwen--instagram ul li {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+/** gwen-featured-module **/
+    
+    .gwen-featured-module .main-slider .post__text {
+        width: 90%;
+    }
+    .gwen-featured-module .featured-slider--thumbnail .post-thumbnail {
+        height: 460px;
+    }
+    .flickity-prev-next-button, .flickity-prev-next-button:focus, .flickity-prev-next-button:active {
+        width: 40px;
+        height: 40px;
+    }
+    .footer-instagram ul li {
+        width:  33.33%;
+    }
+    .site-footer-main .site-footer__section-inner {
+        text-align: center;
+        display: block;
+    }
+    .navigation--footer {
+        display: none;
+    }
+    .posts-list .post--horizontal .post__title {
+        font-size: 1.728rem;
+    }
+    .posts-list .post--horizontal .post__title {
+        font-size: 1.424rem;
+    }
+    .gwen--instagram ul li {
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) {
+    .posts-list .post--horizontal .post__title {
+        font-size: 1.728rem;
+    }
+}
+
+@media (max-width: 991px) {
+    #gwen-mobile-header #header-search-dropdown .container{
+        width: 100%;
+        padding: 0;
+    }
+    
+    
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}

@@ -1,0 +1,50 @@
+<!-- 导航栏 -->
+		<nav class="navigation-bar navigation-bar--fullwidth text-right hidden-xs hidden-sm js-sticky-header-holder">
+			<div class="navigation-bar__inner container">
+				<div class="navigation-bar__section">
+					<div class="site-logo header-logo">
+                        <a href={{ url_for('home') }}>
+							<img src="/static/img/logo-blac.png" alt="logo">
+						</a>
+					</div>
+				</div>
+
+				<div class="navigation-wrapper navigation-bar__section js-priority-nav">
+					<ul id="menu-main-menu" class="navigation navigation--main navigation--inline">
+                    	<li class="menu-item">
+                    		<a href={{ url_for('home') }}>主页</a>
+                    	</li>
+                    	<li class="menu-item">
+                    		<a href={{ url_for('note') }}>笔记</a>
+                    	</li>
+                    	<li class="menu-item-has-children">
+                    		<a href={{ url_for('photo') }}>照片</a>
+                    	</li>
+                    	<li class="menu-item-has-children">
+                    		<a href={{ url_for('video') }}>视频</a>
+                    	</li>
+                    	<li class="menu-item">
+                    		<a href={{ url_for('author') }}>个人信息</a>
+                    	</li>
+                    	<li class="menu-item">
+                            <a href={{ url_for('board') }}>留言</a>
+                        </li>
+                    </ul>
+				</div>
+
+				<div class="navigation-bar__section">
+					<button type="submit" class="navigation-bar-btn js-search-dropdown-toggle"><i class="mdicon mdicon-search"></i></button>
+				</div>
+			</div><!-- .navigation-bar__inner -->
+
+			<div id="header-search-dropdown" class="header-search-dropdown is-in-navbar">
+            	<div class="container">
+            		<form class="search-form search-form--horizontal" method="get" action="#">
+            			<div class="search-form__input-wrap">
+            				<input type="text" name="s" class="search-form__input" placeholder="Search" value="">
+            			</div>
+            		</form>
+            	</div>
+            </div><!-- .header-search-dropdown -->
+        </nav><!-- Navigation-bar -->
+	</header>

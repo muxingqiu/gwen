@@ -1,0 +1,16 @@
+# 创建程序实例
++ 注册app实例\
+`app = Flask(__name__)`
++ 注册路由
+  + 一个视图函数能够绑定多个url
+  + 可以使用动态url，url里面可以添加变量，也可以用defaults参数设置变量的默认名
+
+
+    ![添加变量](../static/image/添加变量.png)
+
+  + 
+```
+@app.route('/')
+def index():
+return '<h1>Hello, World!</h1>'
+ ```
